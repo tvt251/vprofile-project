@@ -7,7 +7,7 @@ pipeline {
     }
     environment {
         NEXUS_USER = 'admin'
-        NEXUS-PASS = 'Ruby@123'
+        NEXUS_PASS = 'Ruby@123'
         SNAP_REPO = 'vprofile-snap'
         RELEASE_REPO = 'vprofile-release'
         CENTRAL_REPO = 'vprofile-maven-central'
